@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bmi.css">
+    <title>BMI</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="input_container">
+            <h1>BMI CALCULATOR</h1>
+            <hr>
+            <div>
+                <label for="">Weight</label>
+                <input type="number" name="" id="weight" placeholder="Kg" min="1">
+                <br>
+                <label for="">Height</label>
+                <input type="number" name="" id="height" placeholder="m" min="1">
+                <br>
+                <button id="btn"> Calculate </button>
+            </div>
+        </div>
+        <div id="output_container">
+            <div id="message">
+                <div id="dyna_mess" class="all_boxes">
+                    <h4>
+                        BMI
+                    </h4>
+                    <p id="cal"></p>
+                </div>
+                <div id="advice">
+
+                </div>
+            </div>
+            <div id="guide">
+                <div id="guide1" class="all_boxes">
+                    <h4>UNDERWEIGHTED</h4>
+                    <p>Under 18.5</p>
+                </div>
+                <div id="guide2" class="all_boxes">
+                    <h4>NORMAL</h4>
+                    <p>18.5-24.9</p>
+                </div>
+                <div id="guide3" class="all_boxes">
+                    <h4>OVERWEIGHT</h4>
+                    <p>25-29.9</p>
+                </div>
+                <div id="guide4" class="all_boxes">
+                    <h4>OBESE</h4>
+                    <p>30-34.9</p>
+                </div>
+                <div id="guide5" class="all_boxes">
+                    <h4>EXTREMELY OBESE</h4>
+                    <p>35
+                        <</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="/js/bmi.js"></script>
+</body>
+
+</html>
