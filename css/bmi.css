@@ -169,3 +169,23 @@ p {
 #guide5 {
     background-color: #8c181b;
 }
+
+@media only screen and (max-width: 600px) {
+    #input_container label {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+    #input_container input {
+        width: 30%;
+    }
+    #input_container div {
+        line-height: 60px
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #guide {
+        flex-wrap: nowrap;
+    }
+}
