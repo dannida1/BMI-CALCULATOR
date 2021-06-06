@@ -171,6 +171,9 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+    #input_container {
+        width: auto;
+    }
     #input_container label {
         display: block;
         text-align: center;
@@ -181,6 +184,11 @@ p {
     }
     #input_container div {
         line-height: 60px
+    }
+    #input_container button {
+        margin: 0 0;
+        padding: 10px;
+        font-size: 20px;
     }
 }
 
