@@ -27,6 +27,9 @@ body {
     padding: 10px;
 }
 
+
+/*user input container*/
+
 #input_container {
     position: relative;
     background-color: #060c21;
@@ -96,6 +99,9 @@ body {
 #input_container::after {
     background: linear-gradient(235deg, #ff005e, #010615, #fbff00)
 }
+
+
+/*user output container*/
 
 #output_container {
     display: flex;
@@ -169,6 +175,9 @@ p {
 #guide5 {
     background-color: #8c181b;
 }
+
+
+/*responsiveness*/
 
 @media only screen and (max-width: 600px) {
     #input_container {

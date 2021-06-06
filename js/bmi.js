@@ -12,8 +12,8 @@ function calculateBMI() {
     let advice = document.querySelector("#advice");
     let cal = document.querySelector("#cal");
 
-    var calBmi = weight / (Math.pow(height, 2));
-    calBmi = Math.round(calBmi * 10) / 10;
+    var calBmi = weight / (Math.pow(height, 2)); //calculates bmi
+    calBmi = Math.round(calBmi * 10) / 10; //bmi to single decimal place
 
     if (calBmi < 18.5) {
         advice.innerHTML = "You are underweight. This can be a risk to your health. Contact your doctor. This is especially important if you have lost a lot of weight in a short time, without knowing how this happens.";
